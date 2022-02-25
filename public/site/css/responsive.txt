@@ -1,0 +1,1014 @@
+  /*
+	---------------------------------------------------
+	
+	           Styles for Mobile Devices
+
+	---------------------------------------------------
+*/
+
+/* 1350px (devices and browsers) */
+@media only screen and (min-width: 1300px) and (max-width: 1700px) { 
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/	
+/* -- Search -- */
+#s                         { width: 100px; }
+
+/* -- Live Search -- */
+ul.dwls_search_results     { width: 179px !important; }
+ul.search_results li.post_with_thumb a { width: 90px !important; margin-top: 8px !important; }
+
+}
+
+
+
+
+/* 1350px (devices and browsers) */
+@media only screen and (min-width: 1260px) and (max-width: 1300px) { 
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+.main-header               { width: 1230px; }
+.wrap-center               { width: 1230px; }
+.wrap-middle               { width: 1230px; }
+/* - Layout content - */
+.wrap-fullwidth            { width: 1230px; }
+.wrap-fullwidth-bg         { width: 1228px; }
+.halfpage                  { width: 570px; }
+/* .page-content */
+.wrap-content              { width: 900px; float: left; }
+.single-content            { width: 898px; float: left; padding: 0 0 25px 0;}          
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/	
+/* -- Logo -- */
+.logo                      { margin-left: 10px; }
+
+/* -- Search -- */
+#s                         { width: 100px; }
+
+/* -- Live Search -- */
+ul.dwls_search_results     { width: 179px !important; }
+ul.search_results li.post_with_thumb a { width: 100px !important; }
+
+/*Top level menu link items style*/
+.ant-responsive-menu li.right { float: right; margin-right: -5px; }
+
+    
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Home Featured Posts -- */
+#featured-posts          { width: 1230px; }
+ul.featured-home-posts   { width: 1230px; }
+ul.featured-home-posts li{ width: 307.5px; height: 221px; margin: 0 0 0px 0px; }
+ul.featured-home-posts li .title-box { height: 75px; }
+ul.featured-home-posts li img { width: 307.5px; height: 221px; }
+ul.featured-home-posts li.big { width: 615px; height: 442px;}
+ul.featured-home-posts li.big img { width: 615px; height: 442px; }
+ul.featured-home-posts li.big h2 { padding:18px 30px 0 20px; }
+ 
+/* -- Blog Style -- */
+ul.grid_list                 { width: 900px; }
+ul.grid_list li              { width: 266.6px; height: 275px; }
+ul.grid_list li img, ul.grid_list li div.noimg          { width: 266.6px; height: 156px;} 
+
+/* #################
+ ---- Modules -----
+#################### -- */
+div.content-modules    { width: 850px; }
+/* -- Module List -- */
+ul.modern-list li h2   { width: 400px;}
+ul.modern-list li div.modern-list-content { width: 460px; }
+
+/* -- Module Topics -- */
+ul.modern-topics li      { position: relative; z-index: 101; width: 266.6px; height: 200px; float: left; margin: 0 0 25px 25px; }
+ul.modern-topics li img  { width: 266.6px; height: 200px; object-fit: cover; }
+
+/* -- Module Grid -- */ 
+ul.module-grid li        { width: 266.6px; height: 423px; float: left; margin: 0 0 25px 25px; }     
+ul.module-grid li img    { width: 266.6px; height: 423px; object-fit: cover; }
+ul.module-grid li div.inner-small { margin: -423px auto 0 auto; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Responsive Images -- */
+.entry iframe              { max-width: 898px; height: 500px; margin-left: -89px;}
+
+/* -- Responsive Images -- */
+.alignleft                { margin: 20px 20px 10px -40px; }
+.alignright               { margin: 20px -40px 10px 20px; }
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .top-entry         { width: 1230px; }  
+}
+
+
+
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 1004px) and (max-width: 1259px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+/* - Header - */
+.main-header               { width: 980px; }
+.wrap-center               { width: 980px; }
+.wrap-middle               { width: 980px; }
+/* - Layout content - */
+.wrap-fullwidth            { width: 980px; }
+.wrap-fullwidth-bg         { width: 980px; }
+.wrap-fullwidth-bg .entry  { width: auto; padding-left: 115px; padding-right: 115px;}
+.halfpage                  { width: 570px; }
+/* .page-content */
+.wrap-content              { width: 650px; float: left; }
+.single-content            { width: 648px;  }           
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Logo -- */
+.logo                      { margin-right: 30px; } 
+
+/* -- Search -- */
+#searchform2               { display: none;}
+div.widget_search #searchform2 { display: block;} 
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Home Featured Posts -- */
+#featured-posts          { width: 980px; }
+ul.featured-home-posts   { width: 980px; }
+ul.featured-home-posts li{ width: 245px; height: 176px; margin: 0px; }
+ul.featured-home-posts li img { width: 245px; height: 176px; }
+ul.featured-home-posts li.big { width: 490px; height: 352px;}
+ul.featured-home-posts li.big img { width: 490px; height: 352px; }
+/* -- Home featured title -- */
+ul.featured-home-posts li div.inner-big { margin: -347px auto 0 auto; }
+ul.featured-home-posts li div.inner-small { margin: -166px auto 0 auto; }
+ 
+/* -- Blog Style -- */
+ul.grid_list                 { width: 650px; }
+ul.grid_list li              { width: 287.5px; height: 275px; }
+ul.grid_list li img, ul.grid_list li div.noimg          { width: 287.5px; height: 168px;}
+
+/* #################
+ ---- Modules -----
+#################### -- */
+div.content-modules    { width: 600px; }
+
+/* -- Module List -- */
+ul.modern-list li img  { width: 287px; height: 206px;  }
+ul.modern-list li h2   { width: 255px; font-size: 18px; font-weight: 700; line-height: 26px;}
+ul.modern-list li div.modern-list-content { width: 260px; padding-top: 10px; } 
+ul.modern-list li div.modern-list-content p { padding: 10px 0; font-weight: 400; font-size: 13px; line-height: 22px; }
+
+/* -- Module Topics -- */
+ul.modern-topics li      { position: relative; z-index: 101; width: 183.3px; height: 129px; float: left; margin: 0 0 25px 25px; }
+ul.modern-topics li img  { width: 183.3px; height: 129px; object-fit: cover; }
+ul.modern-topics div.topicname   { margin-top: -87px; }
+ul.modern-topics div.topicname a {  font-size: 17px; font-weight: 700; padding:5px 10px 5px 10px; }
+
+/* -- Module Grid -- */ 
+ul.module-grid li        { width: 183.3px; height: 291px; float: left; margin: 0 0 25px 25px; }     
+ul.module-grid li img    { width: 183.3px; height: 291px; object-fit: cover; }
+ul.module-grid li div.inner-small { margin: -291px auto 0 auto; }
+
+/* -- Icons -- */
+ul.meta-icons-home    { width: auto; height: 28px !important; }
+ul.meta-icons-home li { width: 28px !important; height: 28px !important; }
+
+ 
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Responsive Images -- */
+.entry iframe              { max-width: 648px; height: 350px; margin-left: -24px;}
+
+/* -- Responsive Images -- */
+.alignleft                 { margin-left: 0px;}
+.alignright                { margin-right: 0px;} 
+
+/* ##### Related articles single ##### 
+################################## */
+.single-related            { width: 100%; height: auto; margin: 50px auto 0 auto; }
+.single-related-wrap       { width: 600px; margin: 0 auto; padding: 50px 0;}
+.single-related ul.article_list { width: 250px; margin-left: 30px;}
+.one_half_sr, .one_half_last_sr    { margin-right:3%; }
+.one_half_last_sr                  { margin-right:0;}
+.one_half_last_sr h3       { margin: 0 0 20px 20px; }
+.one_half_last_sr .title-home-circle   { margin: -31px 0 20px 20px; }
+
+/* - Top entry - */
+.entry-top                 { width: 600px; }
+
+/* -- Gallery -- */
+.single-gallery            { width: 651px; margin-left: -1px;}
+.single-gallery img        { width: 89px; height: 89px; margin: 10px 2px -14px 2px !important; }
+iframe.single_iframe       { max-width: 100%; height: 400px;}
+
+/* -- Entry content style -- */
+.entry                     { width: 600px; }
+
+/* -- Entry bottom -- */
+.entry-bottom              { width: 600px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+ul.comment                    { width: 600px; }
+/* -- Comments -- */
+.comments                     { width: 600px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Tag & Category Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 180px !important; }
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .top-entry             { width: 980px; } 
+
+/* -- Footer Social -- */
+footer ul.bottom-social          { margin-top: -5px; }
+footer ul.bottom-social li i     { font-size: 16px; }
+footer ul.bottom-social li a i   { padding: 15px 1px !important;}
+}
+
+
+
+
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header - */
+.main-header               { width: 750px; }
+.wrap-center               { width: 750px; }
+.wrap-middle               { width: 750px; }
+.bar-header                { display: none; }
+/* - Layout content - */
+.wrap-fullwidth            { width: 750px; }
+.wrap-fullwidth-bg         { width: 750px; }
+.wrap-fullwidth-bg .entry  { width: auto; padding-left: 50px; padding-right: 50px;}
+.halfpage                  { width: 570px; }
+/* .page-content */
+.wrap-content              { width: 420px; float: left; }
+.single-content            { width: 418px;  }      
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Logo -- */
+.logo                      { margin-left: 10px; } 
+
+/* -- Search -- */
+#s                         { width: 300px; }
+/* -- Live Search -- */
+ul.dwls_search_results     { width: 379px !important; }
+ul.search_results li.post_with_thumb a { width: 300px !important; }
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a, #respMenu li.current-menu-ancestor a, #respMenu li.current-menu-item a, #respMenu li.current-menu-parent a { background: transparent !important; color: #FFF !important;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Home Featured Posts -- */
+#featured-posts          { width: 750px; }
+ul.featured-home-posts   { width: 750px; }
+ul.featured-home-posts li{ width: 375px; height: 270px; margin: 0px; } 
+ul.featured-home-posts li img { width: 375px; height: 270px; }
+ul.featured-home-posts li.big { width: 750px; height: 439px;}
+ul.featured-home-posts li.big img { width: 750px; height: 439px; } 
+ul.featured-home-posts li:nth-child(4),
+ul.featured-home-posts li:nth-child(5) { display: none !important; }
+/* -- Home featured title -- */
+ul.featured-home-posts li div.inner-big { margin: -434px auto 0 auto; }
+ul.featured-home-posts li div.inner-small { margin: -260px auto 0 auto; }
+
+/* -- Blog Style -- */
+ul.grid_list                 { width: 420px; }
+ul.grid_list li              { width: 370px; height: 320px; }
+ul.grid_list li img, ul.grid_list li div.noimg          { width: 370px; height: 216px;}
+
+/* #################
+ ---- Modules -----
+#################### -- */
+div.content-modules    { width: 370px; }
+
+/* -- Module List -- */
+ul.modern-list li img  { width: 370px; height: 216px;  }
+ul.modern-list li      { max-height: 250px; float: left; padding-bottom: 50px;}
+ul.modern-list li h2   { width: 370px; font-size: 18px; font-weight: 700; line-height: 26px;}
+ul.modern-list li div.modern-list-content { width: 370px; padding-top: 10px; } 
+ul.modern-list li div.modern-list-content p { display: none;}
+
+/* -- Module Topics -- */
+ul.modern-topics li      { position: relative; z-index: 101; width: 370px; height: 129px; float: left; margin: 0 0 25px 25px; }
+ul.modern-topics li img  { width: 370px; height: 129px; object-fit: cover; }
+ul.modern-topics div.topicname   { margin-top: -87px; }
+ul.modern-topics div.topicname a {  font-size: 20px; font-weight: 700; padding:5px 10px 5px 10px; }
+
+/* -- Module Grid -- */ 
+ul.module-grid li        { width: 370px; height: 216px; float: left; margin: 0 0 25px 25px; }     
+ul.module-grid li img    { width: 370px; height: 216px; object-fit: cover; }
+ul.module-grid li div.inner-small { margin: -216px auto 0 auto; } 
+
+
+/* -- Icons -- */
+ul.meta-icons-home    { width: auto; height: 28px !important; }
+ul.meta-icons-home li { width: 28px !important; height: 28px !important; }
+
+
+/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/ 
+
+/* -- Responsive Images -- */
+.entry iframe              { max-width: 418px; height: 250px; margin-left: -24px;}
+
+/* -- Responsive Images -- */
+.alignleft                 { margin-left: 0px;}
+.alignright                { margin-right: 0px;} 
+
+/* -- Page / Article Title -- */
+h1.article-title           { font-size: 28px; line-height: 36px; }
+
+/* -- Single Share -- */
+ul.meta-entry-top li ul.single-share  { margin: 2px 0 0 -27px;  }
+
+/* ##### Related articles single ##### 
+################################## */
+.single-related            { width: 100%; height: auto; margin: 50px auto 0 auto; }
+.single-related-wrap       { width: 370px; margin: 0 auto; padding: 50px 0;}
+.single-related ul.article_list { width: 250px; margin-left: 30px;}
+.single-related h3         { margin: 0 0 20px 20px; }
+.one_half_sr, .one_half_last_sr    { float: none !important; width: 300px; margin: 0 auto 25px auto !important;}
+.one_half_last_sr                    { margin-right:0;}
+.single-related h4         { margin-top: 0px;}
+.one_half_last_sr h3       { margin: 0 0 20px 20px; }
+.one_half_last_sr .title-home-circle   { margin: -31px 0 20px 20px; }
+
+/* - Top entry - */
+.entry-top                 { width: 370px; }
+ul.meta-entry-top li.likes { }
+ul.meta-entry-top li:nth-last-child(4) { display: none;}
+ul.meta-entry-top li ul.single-share li:nth-last-child(4) { display: block;}
+
+/* -- Gallery -- */
+.single-gallery            { width: 418px; }
+.single-gallery img        { width: 83.6px; height: 83.6px; margin: 10px 0 -14px 0 !important; }
+iframe.single_iframe       { max-width: 100%; height: 220px;}
+
+/* -- Entry content style -- */
+.entry                     { width: 370px; }
+
+/* -- Entry bottom -- */
+.entry-bottom              { width: 370px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+ul.comment                    { width: 370px; }
+/* -- Comments -- */
+.comments                     { width: 370px; }
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Tag & Category Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 160px !important; }
+
+/* -- 404 page -- */
+#bouplay-404 .middle-404  { max-width: 750px; margin: 0 auto;}
+#bouplay-404 h1               { font-size: 60px; padding: 0 0 40px 0;}
+
+/* -- WP Recipe Maker -- */
+div.wprm-recipe-time-container { width: 100% !important;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .top-entry         { width: 750px; }  
+}
+
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 580px) and (max-width: 760px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header - */
+.main-header               { width: 570px; }
+.wrap-center               { width: 570px; }
+.wrap-middle               { width: 570px; }
+.bar-header                { display: none;}
+/* - Layout content - */
+.wrap-fullwidth            { width: 570px; }
+.wrap-fullwidth-bg         { width: 570px; }
+.wrap-fullwidth-bg .entry  { width: auto; padding-left: 35px; padding-right: 35px;}
+.halfpage                  { width: 470px; }
+/* .page-content */
+.wrap-content              { width: 570px; float: left; }
+.single-content            { width: 570px; float: none; margin-left: auto; margin-right: auto;}           
+/* - sidebar - */
+.sidebar           		   { width: 575px; float: left;  margin-top: 30px; margin-left: -5px; column-count: 2; -moz-column-gap: 10px; -webkit-column-count: 2; -webkit-column-gap: 10px; column-count: 2; }
+.sidebar .widget           { width: 250px; padding: 0 15px 20px 15px; display: inline-block;  margin-left: 5px; margin-right: 0px; margin-bottom: 45px;}
+
+/* -- Banner widget 300px -- */
+.sidebar .widget .img-300 img,
+.sidebar .widget .img-300 iframe,
+.sidebar .widget .img-300 embed,
+.sidebar .widget .img-300 object  { width: 280px; height: auto; margin: 0 0 0 10px; padding: 0px;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Logo -- */
+.logo                      { margin-left: 10px; } 
+
+/* -- Search -- */
+#s                         { width: 180px; }
+
+/* -- Live Search -- */
+ul.dwls_search_results     { width: 259px !important; }
+ul.search_results li.post_with_thumb a { width: 180px !important; }
+
+/* -- Menu Icons Top List -- */ 
+ul.top-social              { display: none;}
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a, #respMenu li.current-menu-ancestor a, #respMenu li.current-menu-item a, #respMenu li.current-menu-parent a { background: transparent !important; color: #FFF !important;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Home Featured Posts -- */
+#featured-posts          { width: 570px; }
+ul.featured-home-posts   { width: 570px; }
+ul.featured-home-posts li{ width: 285px; height: 205px; margin: 0px; }
+ul.featured-home-posts li img { width: 285px; height: 205px; }
+ul.featured-home-posts li.big { width: 570px; height: 310px;}
+ul.featured-home-posts li.big img { width: 570px; height: 310px; }
+ul.featured-home-posts li:nth-child(4),
+ul.featured-home-posts li:nth-child(5) { display: none !important; }
+/* -- Home featured title -- */
+ul.featured-home-posts li div.inner-big { margin: -305px auto 0 auto; }
+ul.featured-home-posts li div.inner-small { margin: -195px auto 0 auto; }
+
+/* -- Blog Style -- */
+ul.grid_list                 { width: 570px; }
+ul.grid_list li              { width: 247.5px; height: 275px; }
+ul.grid_list li img, ul.grid_list li div.noimg          { width: 247.5px; height: 145px;}
+ul.grid_list li .content-grid span.anviews { margin-left: 5px;}
+
+/* #################
+ ---- Modules -----
+#################### -- */
+div.content-modules    { width: 520px; }
+
+/* -- Module List -- */
+ul.modern-list li img  { width: 247.5px; height: 145px;  }
+ul.modern-list li      { max-height: 250px; float: left; padding-bottom: 0px;}
+ul.modern-list li h2   { width: 220px; font-size: 18px; font-weight: 700; line-height: 26px;}
+ul.modern-list li div.modern-list-content { width: 220px; padding-top: 10px;} 
+ul.modern-list li div.modern-list-content p { display: none;}
+
+/* -- Module Topics -- */
+ul.modern-topics li      { position: relative; z-index: 101; width: 156.66px; height: 129px; float: left; margin: 0 0 25px 25px; }
+ul.modern-topics li img  { width: 156.66px; height: 129px; object-fit: cover; }
+ul.modern-topics div.topicname   { margin-top: -87px; }
+ul.modern-topics div.topicname a {  font-size: 20px; font-weight: 700; padding:5px 10px 5px 10px; }
+
+/* -- Module Grid -- */ 
+ul.module-grid li        { width: 156.66px; height: 248px; float: left; margin: 0 0 25px 25px; }     
+ul.module-grid li img    { width: 156.66px; height: 248px; object-fit: cover; }
+ul.module-grid li div.inner-small { margin: -248px auto 0 auto; } 
+ul.module-grid li div.inner-small h2 { font-size: 15px; font-weight: 700; line-height: 24px; }
+
+/* -- Icons -- */
+ul.meta-icons-home    { width: auto; height: 28px !important; }
+ul.meta-icons-home li { width: 28px !important; height: 28px !important; }
+
+
+/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Responsive Images -- */
+.entry iframe              { max-width: 568px; height: 300px; margin-left: -29px;}
+
+/* -- Responsive Images -- */
+.alignleft                 { margin-left: 0px;}
+.alignright                { margin-right: 0px;} 
+
+/* -- Page / Article Title -- */
+h1.article-title           { font-size: 28px; line-height: 36px; }
+
+/* -- Single Share -- */
+ul.meta-entry-top li ul.single-share  { }
+ul.meta-entry-top li ul.single-share a span { display: none;}
+ul.meta-entry-top li ul.single-share li a.fbbutton i { padding-right: 10px; padding-left: 5px;}
+ul.meta-entry-top li ul.single-share li a.fbbutton   { margin-right: -5px;}
+
+/* ##### Related articles single ##### 
+################################## */
+.single-related            { width: 100%; height: auto; margin: 50px auto 0 auto; }
+.single-related-wrap       { width: 370px; margin: 0 auto; padding: 50px 0;}
+.single-related ul.article_list { width: 250px; margin-left: 30px;}
+.single-related h3         { margin: 0 0 20px 20px; }
+.one_half_sr, .one_half_last_sr    { float: none !important; width: 300px; margin: 0 auto 25px auto !important;}
+.one_half_last_sr                    { margin-right:0;}
+.one_half_last_sr h3       { margin: 0 0 20px 20px; }
+.one_half_last_sr .title-home-circle   { margin: -31px 0 20px 20px; }
+
+/* - Top entry - */
+ul.meta-entry-top li:nth-last-child(4) { display: none;}
+ul.meta-entry-top li ul.single-share li:nth-last-child(4) { display: block;}
+.entry-top                 { width: 510px;}
+iframe.single_iframe       { width: 100%; height: 300px;}
+
+/* -- Gallery -- */
+.single-gallery            { width: 569px; }
+.single-gallery img        { width: 94.83px; height: 94.83px; margin: 10px 0 -14px 0 !important; }
+
+/* -- Entry content style -- */
+.entry                     { width: 510px; }
+
+/* -- Entry bottom -- */
+.entry-bottom              { width: 510px; }
+
+/* -- Banner widget 300px -- */
+.img-300                   {  margin:0 0 -27px -25px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+ul.comment                  { width: 510px; }
+.comments                   { width: 510px; }
+ 
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Tag & Category Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 150px !important; }
+
+/* -- 404 page -- */
+#bouplay-404              { padding: 100px 0 100px 0;}
+#bouplay-404 .middle-404  { width: 80%; margin: 0 auto;}
+#bouplay-404 .widget_recent_entries  { margin: 20px auto 0 auto;}
+#bouplay-404 h1               { font-size: 60px; padding: 0 0 40px 0;}
+#bouplay-404 p                { font-size: 20px; line-height: 32px;}
+#bouplay-404 .one_half, #bouplay-404 .one_half_last { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+#bouplay-404 .one_half_last                    { margin-right:0;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .top-entry         { width: 570px; }
+
+footer .wrap-middle .sright { float: left;}
+footer ul.bottom-social   { margin: 5px 0 0 -15px;}
+
+}
+
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 580px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header - */
+.main-header               { width: 460px; }
+.wrap-center               { width: 460px; }
+.wrap-middle               { width: 460px; }
+.bar-header                { display: none;}
+/* - Layout content - */
+.wrap-fullwidth            { width: 460px; }
+.wrap-fullwidth-bg         { width: 460px; }
+.wrap-fullwidth-bg .entry  { width: auto; padding-left: 15px; padding-right: 15px;}
+.halfpage                  { width: 400px; }
+/* .page-content */
+.wrap-content              { width: 460px; float: left; }
+.single-content            { width: 460px; float: none; margin-left: auto; margin-right: auto;}           
+/* - sidebar - */
+.sidebar           		   { width: 460px; float: left;  margin-top: 30px; margin-left: 0px;}
+.sidebar .widget           { width: 250px; display: block; float: left; margin-right: 0px; padding: 0 105px 20px 105px;}
+
+/* -- Banner widget 300px -- */
+.sidebar .widget .img-300  { padding: 25px 0;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Logo -- */
+.logo                      { margin-left: 10px; } 
+
+/* -- Search -- */
+#s                         { width: 110px; }
+/* -- Live Search -- */
+ul.dwls_search_results     { width: 189px !important; }
+ul.search_results li.post_with_thumb a { width: 110px !important; margin-top: 0px !important; }
+ 
+/* -- Menu Icons Top List -- */ 
+ul.top-social              { display: none;}
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a, #respMenu li.current-menu-ancestor a, #respMenu li.current-menu-item a, #respMenu li.current-menu-parent a { background: transparent !important; color: #FFF !important;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Home Featured Posts -- */
+#featured-posts          { width: 460px; }
+ul.featured-home-posts   { width: 460px; }
+ul.featured-home-posts li{ width: 230px; height: 205px; margin: 0px; } 
+ul.featured-home-posts li img { width: 230px; height: 205px; }
+ul.featured-home-posts li.big { width: 460px; height: 305px;}
+ul.featured-home-posts li.big img { width: 460px; height: 305px; } 
+ul.featured-home-posts li:nth-child(4),
+ul.featured-home-posts li:nth-child(5) { display: none !important; }
+/* -- Home featured title -- */
+ul.featured-home-posts li div.inner-big { margin: -300px auto 0 auto; }
+ul.featured-home-posts li div.inner-small { margin: -195px auto 0 auto; }
+
+/* -- Blog Style -- */
+ul.grid_list                 { width: 460px; }
+ul.grid_list li              { width: 410px; height: 360px; }
+ul.grid_list li img, ul.grid_list li div.noimg          { width: 410px; height: 239px;}
+
+/* #################
+ ---- Modules -----
+#################### -- */
+div.content-modules    { width: 410px; }
+
+/* -- Module List -- */
+ul.modern-list li img  { width: 192.5px; height: 145px;  }
+ul.modern-list li      { max-height: 250px; float: left; padding-bottom: 0px;}
+ul.modern-list li h2   { width: 165px; font-size: 16px; font-weight: 700; line-height: 24px;}
+ul.modern-list li div.modern-list-content { width: 165px; padding-top: 10px; } 
+ul.modern-list li div.modern-list-content p { display: none;}
+
+/* -- Module Topics -- */
+ul.modern-topics li      { position: relative; z-index: 101; width: 192.5px; height: 129px; float: left; margin: 0 0 25px 25px; }
+ul.modern-topics li img  { width: 192.5px; height: 129px; object-fit: cover; }
+ul.modern-topics li:nth-child(3)     { width: 410px; }
+ul.modern-topics li:nth-child(3) img { width: 410px; }
+ul.modern-topics div.topicname   { margin-top: -87px; }
+ul.modern-topics div.topicname a {  font-size: 20px; font-weight: 700; padding:5px 10px 5px 10px; }
+
+/* -- Module Grid -- */ 
+ul.module-grid li        { width: 410px; height: 129px; float: left; margin: 0 0 25px 25px; }     
+ul.module-grid li img    { width: 410px; height: 129px; object-fit: cover; }
+ul.module-grid li div.inner-small { margin: -129px auto 0 auto; } 
+ul.module-grid li div.inner-small h2 { font-size: 15px; font-weight: 700; line-height: 24px; } 
+
+/* -- Icons -- */
+ul.meta-icons-home    { width: auto; height: 28px !important; }
+ul.meta-icons-home li { width: 28px !important; height: 28px !important; }
+
+
+/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/ 
+
+/* -- Responsive Images -- */
+.entry iframe              { max-width: 458px; height: 280px; margin-left: -24px;}
+
+/* -- Responsive Images -- */
+.alignleft                 { margin-left: 0px;}
+.alignright                { margin-right: 0px;} 
+
+/* -- Page / Article Title -- */
+h1.article-title, .entry h1.page-title  { font-size: 22px; line-height: 32px; }
+
+/* -- Single Share -- */
+ul.meta-entry-top li ul.single-share  { margin: 10px 0 0 -32px;  }
+
+/* ##### Related articles single ##### 
+################################## */
+.single-related            { width: 100%; height: auto; margin: 50px auto 0 auto; }
+.single-related-wrap       { width: 370px; margin: 0 auto; padding: 50px 0;}
+.single-related ul.article_list { width: 250px; margin-left: 30px;}
+.single-related h3         { margin: 0 0 20px 20px; }
+.one_half_sr, .one_half_last_sr    { float: none !important; width: 300px; margin: 0 auto 25px auto !important;}
+.one_half_last_sr                    { margin-right:0;}
+.one_half_last_sr h3       { margin: 0 0 20px 20px; }
+.one_half_last_sr .title-home-circle   { margin: -31px 0 20px 20px; }
+
+/* - Top entry - */
+ul.meta-entry-top li:nth-last-child(4) { display: none;}
+ul.meta-entry-top li ul.single-share li:nth-last-child(4) { display: block;}
+.entry-top                 { width: 410px;}
+iframe.single_iframe       { width: 100%; height: 250px;}
+
+/* -- Gallery -- */
+.single-gallery            { width: 459px; }
+.single-gallery img        { width: 91.8px; height: 91.8px; margin: 10px 0 -14px 0 !important; }
+
+/* -- Entry content style -- */
+.entry                     { width: 410px; }
+
+/* -- Entry bottom -- */
+.entry-bottom              { width: 410px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+ul.comment                  { width: 410px; }
+.comments                   { width: 410px; } 
+
+ 
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Tag & Category Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 195px !important; }
+
+/* -- 404 page -- */
+#bouplay-404              { padding: 100px 0 100px 0;}
+#bouplay-404 .middle-404  { width: 80%; margin: 0 auto;}
+#bouplay-404 .widget_recent_entries  { margin: 20px auto 0 auto;}
+#bouplay-404 h1               { font-size: 60px; padding: 0 0 40px 0;}
+#bouplay-404 p                { font-size: 20px; line-height: 32px;}
+#bouplay-404 .one_half, #bouplay-404 .one_half_last { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+#bouplay-404 .one_half_last                    { margin-right:0;}
+
+/* -- WP Recipe Maker -- */
+div.wprm-recipe-time-container { width: 200px !important; border: none !important; text-align: left !important;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .top-entry                  { width: 420px; height: auto; text-align: center; }
+
+footer .wrap-middle .sright { float: left;}
+footer ul.bottom-social   { margin: 5px 0 0 -13px;}
+footer ul.bottom-social li i { font-size: 17px;}
+footer ul.bottom-social li a i   { padding: 15px 0px;}
+}
+
+
+
+
+
+
+
+
+
+/* All Mobile Size (devices) */
+@media only screen and (max-width: 479px) { 
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header - */
+.main-header               { width: 305px; }
+.wrap-center               { width: 305px; }
+.wrap-middle               { width: 305px; }
+.bar-header                { display: none;}
+/* - Layout content - */
+body.single .wrap-fullwidth{ width: 100%;}
+.wrap-fullwidth            { width: 305px;}
+.wrap-fullwidth-bg         { width: 100%; }
+.wrap-fullwidth-bg .entry  { width: auto; padding-left: 15px; padding-right: 15px;}
+.halfpage                  { width: 275px; }
+/* .page-content */
+.wrap-content              { width: 305px; float: left; margin-left: auto; margin-right: auto; }
+.single-content            { width: 99%;  float: none; margin-left: auto; margin-right: auto;}           
+/* - sidebar - */
+body.single .sidebar       { width: 100%;}
+.sidebar           		   { width: 300px; margin-left: auto; margin-right: auto;}
+.sidebar .widget           { width: 250px; display: block; float: none; margin-right: auto; margin-left: auto; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Logo -- */
+.logo                      { margin-left: 10px; } 
+
+/* -- Search -- */
+header #searchform2        { display: none;} 
+
+/* -- Menu Icons Top List -- */ 
+ul.top-social              { display: none;}
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a, #respMenu li.current-menu-ancestor a, #respMenu li.current-menu-item a, #respMenu li.current-menu-parent a { background: transparent !important; color: #FFF !important;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Home Featured Posts -- */
+#featured-posts          { width: 305px; }
+ul.featured-home-posts   { width: 305px; }
+ul.featured-home-posts li{ width: 285px; height: 205px; }
+ul.featured-home-posts li img { width: 285px; height: 205px; }
+ul.featured-home-posts li.big { width: 305px; height: 219px;}
+ul.featured-home-posts li.big img { width: 305px; height: 219px; }
+ul.featured-home-posts li h2 { font-size: 20px; font-weight: 700; line-height: 28px; }
+
+/* -- Home featured title -- */
+ul.featured-home-posts li div.inner-big { margin: -214px auto 0 auto; }
+ul.featured-home-posts li:nth-child(2),
+ul.featured-home-posts li:nth-child(3),
+ul.featured-home-posts li:nth-child(4),
+ul.featured-home-posts li:nth-child(5) { display: none;}
+
+/* #################
+ ---- Modules -----
+#################### -- */
+div.content-modules    { width: 255px; }
+
+/* -- Module List -- */
+ul.modern-list li img  { width: 100px; height: 100px;  }
+ul.modern-list li      { max-height: 250px; float: left; padding-bottom: 0px;}
+ul.modern-list li h2   { width: 125px; font-size: 14px; font-weight: 700; line-height: 20px;}
+ul.modern-list li div.modern-list-content { width: 125px; padding: 0px 15px 0 15px;  } 
+ul.modern-list li div.modern-list-content p { display: none;}
+ul.modern-list li .content-list span.comm { display: none;}
+
+/* -- Module Topics -- */
+ul.modern-topics li      { position: relative; z-index: 101; width: 255px; height: 129px; float: left; margin: 0 0 25px 25px; }
+ul.modern-topics li img  { width: 255px; height: 129px; object-fit: cover; }
+ul.modern-topics div.topicname   { margin-top: -87px; }
+ul.modern-topics div.topicname a {  font-size: 20px; font-weight: 700; padding:5px 10px 5px 10px; }
+
+/* -- Module Grid -- */ 
+ul.module-grid li        { width: 255px; height: 129px; float: left; margin: 0 0 25px 25px; }     
+ul.module-grid li img    { width: 255px; height: 129px; object-fit: cover; }
+ul.module-grid li div.inner-small { margin: -129px auto 0 auto; } 
+ul.module-grid li div.inner-small h2 { font-size: 15px; font-weight: 700; line-height: 24px; } 
+
+/* -- Icons -- */
+ul.meta-icons-home    { width: auto; height: 28px !important; }
+ul.meta-icons-home li { width: 28px !important; height: 28px !important; }
+ 
+/* -- Blog Style -- */
+ul.grid_list                 { width: 305px; }
+ul.grid_list li              { width: 255px; height: 275px; }
+ul.grid_list li img, ul.grid_list li div.noimg          { width: 255px; height: 149px;}
+ul.grid_list li .content-grid span.anviews { margin-left: -3px;}
+ul.grid_list li span.anpostdate { display: none;} 
+ul.grid_list li .content-grid span.comm { margin-left: 0px;}
+
+/* -- Pagination -- */
+.wp-pagenavi                { float: left; width: 270px; margin-left: 20px; margin-top: 25px; margin-bottom: 25px; } 
+.wp-pagenavi a, .wp-pagenavi span { margin-bottom: 2px;}
+
+
+/*----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/ 
+/* -- Responsive Images -- */
+.entry iframe              { max-width: 303px; height: 180px; margin-left: -11.5px;}
+
+/* -- Responsive Images -- */
+.alignleft                 { margin-left: 0px;}
+.alignright                { margin-right: 0px;} 
+
+/* -- Page / Article Title -- */
+h1.article-title, .entry h1.page-title  { font-size: 22px; line-height: 32px; }
+
+/* -- Single Share -- */
+ul.meta-entry-top li ul.single-share  { margin: 10px 0 0 -32px;  }
+
+/* ##### Related articles single ##### 
+################################## */
+.single-related            { width: 100%; height: auto; margin: 50px auto 0 auto; }
+.single-related-wrap       { width: 305px; margin: 0 auto; padding: 50px 0;}
+.single-related ul.article_list { width: 250px; margin-left: 30px;}
+.single-related h3         { margin: 0 0 20px 20px; }
+.one_half_sr, .one_half_last_sr    { float: none !important; width: 300px; margin: 0 auto 25px auto !important;}
+.one_half_last_sr                    { margin-right:0;}
+.one_half_last_sr h3       { margin: 0 0 20px 20px; }
+.one_half_last_sr .title-home-circle   { margin: -31px 0 20px 20px; }
+
+/* - Top entry - */
+ul.meta-entry-top li span.fn { display: none;}
+.entry-top                 { width: 280px;}
+iframe.single_iframe       { width: 100%; height: 180px;}
+ 
+
+/* -- Gallery -- */
+.single-gallery            { width: 305px; }
+.single-gallery img        { width: 76.25px; height: 76.25px; margin: 10px 0 -14px 0 !important; }
+
+/* -- Entry content style -- */
+.entry                     { width: 280px; }
+
+/* -- Entry bottom -- */
+.entry-bottom              { width: 280px; } 
+
+/* -- Entry content style -- */
+.entry                     { width: 280px; }
+
+/* -- Author entry small box -- */
+.author-right-meta         { display: none;}
+
+/* -- Entry bottom -- */
+.entry-bottom              { width: 280px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+ul.comment                  { width: 280px; }
+.comments                   { width: 280px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Tag & Category Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 280px !important; }
+
+/* -- 404 page -- */
+#bouplay-404              { padding: 100px 0 100px 0;}
+#bouplay-404 .middle-404  { width: 80%; margin: 0 auto;}
+#bouplay-404 .widget_recent_entries  { margin: 20px auto 0 auto;}
+#bouplay-404 h1               { font-size: 50px; padding: 0 0 40px 0;}
+#bouplay-404 p                { font-size: 20px; line-height: 32px;}
+#bouplay-404 .one_half, #bouplay-404 .one_half_last { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+#bouplay-404 .one_half_last                    { margin-right:0;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .top-entry                 { width: 300px; padding: 50px 0;}
+
+/* -- Top Footer Section -- */
+.top-footer-section h2            { font-size: 22px; line-height: 40px; margin-bottom: 30px;}
+.top-footer-section p             { display: none;} 
+
+footer .wrap-middle .sright { float: left;}
+footer ul.bottom-social   { margin: 5px 0 0 -13px;}
+footer ul.bottom-social li i { font-size: 15px;}
+footer ul.bottom-social li a i   { padding: 15px 0px;}
+
+/* -- Columns -- */
+.one_half, .one_half_last         { float:left;width:100%; margin-bottom:10px; margin-right:0; }
+.one_half_last                    { margin-right:0;}
+
+.one_third, .one_third_last       { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_third_last                   { margin-right:0;}
+
+.one_fourth, .one_fourth_last     { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_fourth_last                  { margin-right:0;}
+
+}
