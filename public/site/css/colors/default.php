@@ -186,7 +186,8 @@ ul.module-grid li div.bou-date i { color: <?php echo $secondary; ?>;}
 ul.grid_list li.sticky { background-color: #f1f1f1; background: linear-gradient(to right, #ebebeb , #ffffff);}
 
 /* -- Pagination -- */
-.wp-pagenavi a, .wp-pagenavi span { background-color: #191919; color: #FFF;  }
+.wp-pagenavi a, .wp-pagenavi span, .wp-pagenavi .disabled a:hover { background-color: #191919; color: #FFF;  }
+.wp-pagenavi .active a { background-color: <?php echo $secondary; ?> !important; }
 .wp-pagenavi a:hover { color: #000 !important; background-color: <?php echo $secondary; ?>;}
 .wp-pagenavi span.current { background-color: <?php echo $secondary; ?>; color: #000 !important; }
 

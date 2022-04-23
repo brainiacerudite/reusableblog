@@ -326,8 +326,10 @@ ul.meta-icons-home li:hover { cursor: help;}
  /* -- Pagination -- */
 .wp-pagenavi { position: relative; float: left; width: 100%; text-align: center; font-size: 15px; margin-top: 10px; margin-bottom: 50px; }
 .wp-pagenavi a, .wp-pagenavi span  { display: inline-block; padding:5px 13px 3px 13px; list-style: none;  margin: 0; border-radius: 3px; margin-right:2px; font-size:12px; font-weight:700; }
+.wp-pagenavi .disabled a, .wp-pagenavi .disabled span  { opacity: 0.6; }
 .wp-pagenavi a:hover { border-radius: 3px; }
 .wp-pagenavi span.current  { border-radius: 3px; }
+.wp-pagenavi .pagination { display: flex; justify-content: center; }
 
 /* -- Default pagination numbers -- */
 .defaultpag                { float: left; width: 100%; font-weight: 900; margin-bottom: 50px;}
